@@ -1,0 +1,49 @@
+services:
+  db:
+    image: mysql:8.0
+    container_name: etodo-db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: etodo
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./e-todo.sql:/docker-entrypoint-initdb.d/e-todo.sql
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: etodo-phpmyadmin
+    restart: always
+    ports:
+      - "8080:80"
+    environment:
+      PMA_HOST: db
+      PMA_USER: root
+      PMA_PASSWORD: root
+    depends_on:
+      - db
+
+  frontend:
+    image: nginx:alpine
+    container_name: etodo-frontend
+    restart: always
+    volumes:
+      - ./frontend:/usr/share/nginx/html
+    ports:
+      - "8081:80"
+
+  backend:
+    build: ./backend
+    container_name: etodo-backend
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+
+volumes:
+  db_data:

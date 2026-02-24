@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    justify-items: center;
+    padding: 20px;
+    animation: fadeIn 0.6s ease-in;
+    position: relative;
+    padding-top: 50px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.main-header {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    z-index: 10;
+}
+
+.header-logo {
+    width: clamp(120px, 25vw, 250px);
+    height: auto;
+}
+
+.auth-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 440px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 35px 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.login-card.hidden {
+    animation: slideOut 0.4s ease-out forwards;
+}
+
+@keyframes slideOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 0;
+    animation: slideDown 0.6s ease-out;
+    width: 100%;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.header h1 {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.footer {
+    margin-top: 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.field {
+    margin-bottom: 15px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.15);
+    font-size: 15px;
+    outline: none;
+    transition: all 0.2s;
+    color: #fff;
+}
+
+.input-field::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.input-field:focus {
+    border-color: #00d4ff;
+    box-shadow: 0 0 0 3px rgba(0, 212, 255, 0.2);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.primary-btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #00d4ff, #0099cc);
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s;
+    box-shadow: 0 4px 12px rgba(0, 212, 255, 0.3);
+}
+
+.primary-btn:hover {
+    transform: translateY(-2px);
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.signup-link a {
+    color: #00d4ff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .login-card {
+        padding: 25px 20px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .main-header {
+        top: 10px;
+        right: 10px;
+    }
+    .header-logo {
+        width: 110px;
+        height: auto;
+    }
+}

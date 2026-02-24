@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskly</title>
+    <link rel="stylesheet" href="style/todos.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <img src="assets/image/Logo2.png" alt="Logo Taskly" class="header-logo">
+    </header>
+
+    <div class="header-top">
+        <button class="logout-btn" onclick="logout()">
+            <span class="logout-text">Déconnexion</span>
+        </button>
+    </div>
+
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List</h2>
+            <div class="row">
+                <div class="input-group">
+                    <label for="title-box">Titre de la tâche</label>
+                    <input id="title-box" type="text" placeholder="Ex: Faire les courses">
+                </div>
+
+                <div class="input-group">
+                    <label for="input-box">Description</label>
+                    <input id="input-box" type="text" placeholder="Ex: Acheter du pain et du lait">
+                </div>
+
+                <div class="input-group">
+                    <label for="date-input">Date limite</label>
+                    <input id="date-input" type="date">
+                </div>
+
+                <button onclick="addTask()">Ajouter</button>
+            </div>
+            <ul id="list-container"></ul>
+        </div>
+    </div>
+
+    <div id="edit-modal" class="modal">
+        <div class="modal-content">
+            <h3>Modifier la tâche</h3>
+            <div class="input-group">
+                <label for="edit-title">Titre de la tâche</label>
+                <input id="edit-title" type="text" placeholder="Titre">
+            </div>
+
+            <div class="input-group">
+                <label for="edit-description">Description</label>
+                <input id="edit-description" type="text" placeholder="Description">
+            </div>
+
+            <div class="input-group">
+                <label for="edit-date">Date limite</label>
+                <input id="edit-date" type="date">
+            </div>
+
+            <div class="modal-buttons">
+                <button class="save-btn" onclick="saveEdit()">Enregistrer</button>
+                <button class="cancel-btn" onclick="closeModal()">Annuler</button>
+            </div>
+        </div>
+    </div>
+    <script src="script/todos.js"></script>
+</body>
+
+</html>

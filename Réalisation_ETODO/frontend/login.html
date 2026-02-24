@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskly</title>
+    <link rel="stylesheet" href="style/login.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <img src="assets/image/Logo1.png" alt="Logo Taskly" class="header-logo">
+    </header>
+
+    <div class="auth-container">
+        <div class="login-card" id="login-card">
+            <div class="header" style="margin-bottom: 25px;">
+                <h1>Taskly</h1>
+                <p>Gérez vos tâches facilement et efficacement</p>
+            </div>
+            <h2>Se connecter</h2>
+            <form class="login-form" onsubmit="return false;">
+                <div class="field">
+                    <input type="email" id="login-email" class="input-field" placeholder="Email" required autocomplete="email">
+                </div>
+                <div class="field">
+                    <input type="password" id="login-password" class="input-field" placeholder="Mot de passe" required autocomplete="current-password">
+                </div>
+                <button class="primary-btn" id="login-btn">Se connecter</button>
+            </form>
+            <p class="signup-link">Pas de compte ? <a id="go-register">Inscription</a></p>
+        </div>
+
+        <div class="login-card" id="register-card" style="display:none;">
+            <div class="header" style="margin-bottom: 25px;">
+                <h1>Taskly</h1>
+                <p>Gérez vos tâches facilement et efficacement</p>
+            </div>
+            <h2>Créer un compte</h2>
+            <form class="login-form" onsubmit="return false;">
+                <div class="field">
+                    <input type="text" id="reg-firstname" class="input-field" placeholder="Prénom" required>
+                </div>
+                <div class="field">
+                    <input type="text" id="reg-name" class="input-field" placeholder="Nom" required>
+                </div>
+                <div class="field">
+                    <input type="email" id="reg-email" class="input-field" placeholder="Email" required>
+                </div>
+                <div class="field">
+                    <input type="password" id="reg-password" class="input-field" placeholder="Mot de passe" required>
+                </div>
+                <button class="primary-btn" id="register-btn">S'inscrire</button>
+            </form>
+            <p class="signup-link">Déjà un compte ? <a id="go-login">Connexion</a></p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 Taskly. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script/login.js"></script>
+</body>
+
+</html>
