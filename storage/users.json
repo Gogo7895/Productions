@@ -1,0 +1,58 @@
+{
+  "535915641371099147": {
+    "weight": 123.0,
+    "height": 123.0,
+    "age": 45,
+    "gender": "homme",
+    "activity": "actif",
+    "objective": "masse",
+    "excluded": [
+      "tofu"
+    ],
+    "history": [
+      {
+        "foods": {
+          "proteine": "TOFU NATURE",
+          "glucide": "Galettes riz complet Bio",
+          "legume": "Epinards hachés à la crème fraîche"
+        },
+        "macros": {
+          "calories": 692.5,
+          "proteins": 36.2,
+          "carbs": 85.3,
+          "fats": 21.6
+        },
+        "objective": "masse"
+      },
+      {
+        "foods": {
+          "proteine": "Rillettes de saumon",
+          "glucide": "Frites de patate douce",
+          "legume": "sauce tomate cuisinée"
+        },
+        "macros": {
+          "calories": 623.5,
+          "proteins": 27.6,
+          "carbs": 34.3,
+          "fats": 37.4
+        },
+        "objective": "masse"
+      },
+      {
+        "foods": {
+          "proteine": "Blanc de Poulet  - 25% de Sel*",
+          "glucide": "Frites de patate douce",
+          "legume": "La Purée Brocolis"
+        },
+        "macros": {
+          "calories": 339.5,
+          "proteins": 35.8,
+          "carbs": 27.9,
+          "fats": 10.9
+        },
+        "objective": "masse"
+      }
+    ],
+    "setup_done": true
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "masse": {
+    "label": "Prise de masse 💪",
+    "frequency": "4-5 séances/semaine",
+    "calories_burned": 400,
+    "tip": "Progressivité et surcharge progressive sont les clés de la prise de masse.",
+    "sessions": [
+      {
+        "day": "Lundi",
+        "focus": "Poitrine + Triceps",
+        "exercises": [
+          {"name": "Développé couché barre", "sets": 4, "reps": "8-10", "rest": "2 min"},
+          {"name": "Développé incliné haltères", "sets": 3, "reps": "10-12", "rest": "90 sec"},
+          {"name": "Écarté poulie basse", "sets": 3, "reps": "12-15", "rest": "60 sec"},
+          {"name": "Dips lestés", "sets": 3, "reps": "8-10", "rest": "90 sec"},
+          {"name": "Extension triceps poulie haute", "sets": 3, "reps": "12-15", "rest": "60 sec"}
+        ]
+      },
+      {
+        "day": "Mercredi",
+        "focus": "Dos + Biceps",
+        "exercises": [
+          {"name": "Tractions lestées", "sets": 4, "reps": "6-8", "rest": "2 min"},
+          {"name": "Rowing barre", "sets": 4, "reps": "8-10", "rest": "90 sec"},
+          {"name": "Tirage vertical prise serrée", "sets": 3, "reps": "10-12", "rest": "90 sec"},
+          {"name": "Curl barre droite", "sets": 3, "reps": "10-12", "rest": "60 sec"},
+          {"name": "Curl concentré haltère", "sets": 3, "reps": "12-15", "rest": "60 sec"}
+        ]
+      }
+    ]
+  },
+  "seche": {
+    "label": "Sèche 🔥",
+    "frequency": "4-5 séances/semaine",
+    "calories_burned": 500,
+    "tip": "Combiner musculation et cardio LISS pour préserver le muscle en déficit.",
+    "sessions": [
+      {
+        "day": "Lundi / Jeudi",
+        "focus": "Circuit musculaire full body",
+        "exercises": [
+          {"name": "Squat gobelet", "sets": 4, "reps": "15-20", "rest": "45 sec"},
+          {"name": "Pompes", "sets": 4, "reps": "15-20", "rest": "45 sec"},
+          {"name": "Fentes alternées", "sets": 3, "reps": "12 par jambe", "rest": "45 sec"},
+          {"name": "Rowing haltère unilatéral", "sets": 3, "reps": "15", "rest": "45 sec"},
+          {"name": "Gainage planche", "sets": 3, "reps": "45 sec", "rest": "30 sec"}
+        ]
+      },
+      {
+        "day": "Mardi / Vendredi",
+        "focus": "Cardio LISS",
+        "exercises": [
+          {"name": "Marche rapide inclinée (tapis)", "sets": 1, "reps": "30 min", "rest": "—"},
+          {"name": "Vélo elliptique", "sets": 1, "reps": "20 min", "rest": "—"},
+          {"name": "Corde à sauter (intensité modérée)", "sets": 5, "reps": "2 min", "rest": "1 min"},
+          {"name": "Stepping", "sets": 3, "reps": "5 min", "rest": "2 min"},
+          {"name": "Étirements actifs", "sets": 1, "reps": "10 min", "rest": "—"}
+        ]
+      }
+    ]
+  },
+  "maintien": {
+    "label": "Maintien ⚖️",
+    "frequency": "3 séances/semaine",
+    "calories_burned": 300,
+    "tip": "Régularité > intensité. Mieux vaut s'entraîner modérément toute l'année.",
+    "sessions": [
+      {
+        "day": "Lundi / Mercredi / Vendredi",
+        "focus": "Full body équilibré",
+        "exercises": [
+          {"name": "Squat barre", "sets": 3, "reps": "12", "rest": "90 sec"},
+          {"name": "Développé couché haltères", "sets": 3, "reps": "12", "rest": "90 sec"},
+          {"name": "Tractions ou tirage vertical", "sets": 3, "reps": "10-12", "rest": "90 sec"},
+          {"name": "Soulevé de terre roumain", "sets": 3, "reps": "12", "rest": "90 sec"},
+          {"name": "Développé militaire haltères", "sets": 3, "reps": "12", "rest": "90 sec"}
+        ]
+      }
+    ]
+  }
+}

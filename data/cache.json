@@ -1,0 +1,994 @@
+{
+  "thon_proteine": {
+    "data": [
+      {
+        "name": "Joly Thon Entier",
+        "calories": 175,
+        "proteins": 33,
+        "carbs": 1.0,
+        "fats": 1.1,
+        "sugars": 1.0,
+        "fiber": 0,
+        "saturated_fat": 0.7,
+        "salt": 0.5,
+        "nutriscore": "A",
+        "allergens": [
+          "en:fish"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Thon Joly",
+        "calories": 175,
+        "proteins": 33,
+        "carbs": 1.0,
+        "fats": 4.4,
+        "sugars": 0.1,
+        "fiber": 0,
+        "saturated_fat": 0.7,
+        "salt": 1.17,
+        "nutriscore": "A",
+        "allergens": [
+          "en:fish"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "TAM thon entier a l'huile",
+        "calories": 231,
+        "proteins": 25.8,
+        "carbs": 0,
+        "fats": 14.2,
+        "sugars": 0,
+        "fiber": 0,
+        "saturated_fat": 0.2,
+        "salt": 1,
+        "nutriscore": "A",
+        "allergens": [
+          "en:fish",
+          "en:soybeans"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "TAM THON - Huile",
+        "calories": 231,
+        "proteins": 25.8,
+        "carbs": 0,
+        "fats": 14.2,
+        "sugars": 0,
+        "fiber": 0,
+        "saturated_fat": 0.0,
+        "salt": 1,
+        "nutriscore": "A",
+        "allergens": [
+          "en:fish",
+          "en:soybeans"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Thon entier au nature",
+        "calories": 109,
+        "proteins": 25,
+        "carbs": 0,
+        "fats": 1,
+        "sugars": 0,
+        "fiber": 0,
+        "saturated_fat": 0.5,
+        "salt": 1,
+        "nutriscore": "A",
+        "allergens": [
+          "en:fish"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Thon entier au naturel Albacore",
+        "calories": 109,
+        "proteins": 25,
+        "carbs": 0,
+        "fats": 1,
+        "sugars": 0,
+        "fiber": 0,
+        "saturated_fat": 0.5,
+        "salt": 1,
+        "nutriscore": "A",
+        "allergens": [
+          "en:fish"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      }
+    ],
+    "timestamp": 1775732533.752711
+  },
+  "quinoa_glucide": {
+    "data": [
+      {
+        "name": "Tartines Bio quinoa & graines 450g",
+        "calories": 314,
+        "proteins": 9.1,
+        "carbs": 42,
+        "fats": 11,
+        "sugars": 5,
+        "fiber": 5.3,
+        "saturated_fat": 0.9,
+        "salt": 1,
+        "nutriscore": "B",
+        "allergens": [
+          "en:gluten"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Muesli de quinoa y chocolate",
+        "calories": 424,
+        "proteins": 9.1,
+        "carbs": 67,
+        "fats": 12,
+        "sugars": 16,
+        "fiber": 6.8,
+        "saturated_fat": 4.4,
+        "salt": 0.08,
+        "nutriscore": "C",
+        "allergens": [
+          "en:gluten",
+          "es:avena"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Muesli con quinoa, chía y chocolate negro",
+        "calories": 416,
+        "proteins": 9.8,
+        "carbs": 60,
+        "fats": 13,
+        "sugars": 18,
+        "fiber": 10,
+        "saturated_fat": 4.3,
+        "salt": 0.11,
+        "nutriscore": "C",
+        "allergens": [
+          "en:gluten",
+          "en:nuts"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Quinoa Gourmand",
+        "calories": 361.7,
+        "proteins": 14,
+        "carbs": 65,
+        "fats": 4.1,
+        "sugars": 2.5,
+        "fiber": 7.6,
+        "saturated_fat": 0.5,
+        "salt": 0,
+        "nutriscore": "A",
+        "allergens": [
+          "en:gluten"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      }
+    ],
+    "timestamp": 1775732534.3564847
+  },
+  "poulet_proteine": {
+    "data": [
+      {
+        "name": "Salade & Compagnie Manhattan Poulet Roti",
+        "calories": 185.9,
+        "proteins": 8.4,
+        "carbs": 17,
+        "fats": 8.8,
+        "sugars": 4.1,
+        "fiber": 2.8,
+        "saturated_fat": 2.5,
+        "salt": 0.53,
+        "nutriscore": "C",
+        "allergens": [
+          "en:eggs",
+          "en:gluten",
+          "en:milk",
+          "en:soybeans",
+          "en:sulphur-dioxide-and-sulphites"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Blanc de Poulet  - 25% de Sel*",
+        "calories": 103,
+        "proteins": 21,
+        "carbs": 0.5,
+        "fats": 1.9,
+        "sugars": 0.5,
+        "fiber": 0.5,
+        "saturated_fat": 0.5,
+        "salt": 1.4,
+        "nutriscore": "A",
+        "allergens": [
+          "en:celery"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Blanc de Poulet",
+        "calories": 100,
+        "proteins": 21,
+        "carbs": 0.5,
+        "fats": 1.6,
+        "sugars": 0.5,
+        "fiber": 0,
+        "saturated_fat": 0.4,
+        "salt": 1.48,
+        "nutriscore": "B",
+        "allergens": [
+          "en:celery"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Rôti de Poulet - 100% filet",
+        "calories": 109.3,
+        "proteins": 22,
+        "carbs": 0.5,
+        "fats": 2.2,
+        "sugars": 0.5,
+        "fiber": 0,
+        "saturated_fat": 0.7,
+        "salt": 2.25,
+        "nutriscore": "D",
+        "allergens": [
+          "en:celery"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Blanc de poulet 100% filet",
+        "calories": 116.7,
+        "proteins": 21,
+        "carbs": 0.5,
+        "fats": 1.6,
+        "sugars": 0.5,
+        "fiber": 0,
+        "saturated_fat": 0.4,
+        "salt": 1.5,
+        "nutriscore": "B",
+        "allergens": [
+          "en:celery"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Filet de poulet 🐔 rôti",
+        "calories": 112,
+        "proteins": 23,
+        "carbs": 0.5,
+        "fats": 2,
+        "sugars": 0.5,
+        "fiber": 0,
+        "saturated_fat": 0.6,
+        "salt": 1.48,
+        "nutriscore": "B",
+        "allergens": [
+          "en:celery"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "HERTA Blanc Poulet Nature conservation sans nitrite x4 -140g",
+        "calories": 105.6,
+        "proteins": 21,
+        "carbs": 0.9,
+        "fats": 2,
+        "sugars": 0,
+        "fiber": 0,
+        "saturated_fat": 0.7,
+        "salt": 1.5,
+        "nutriscore": "B",
+        "allergens": [],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      }
+    ],
+    "timestamp": 1775732815.1890585
+  },
+  "épinards_legume": {
+    "data": [
+      {
+        "name": "Ricotta & Épinards",
+        "calories": 251,
+        "proteins": 11,
+        "carbs": 25,
+        "fats": 11,
+        "sugars": 6.7,
+        "fiber": 4.1,
+        "saturated_fat": 4.5,
+        "salt": 0.0,
+        "nutriscore": "C",
+        "allergens": [
+          "en:eggs",
+          "en:gluten",
+          "en:milk"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Epinards hachés à la crème fraîche",
+        "calories": 78,
+        "proteins": 3.5,
+        "carbs": 5.3,
+        "fats": 4.4,
+        "sugars": 1.4,
+        "fiber": 1.7,
+        "saturated_fat": 2.8,
+        "salt": 0.6,
+        "nutriscore": "B",
+        "allergens": [
+          "en:gluten",
+          "en:milk"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "GIRASOLI RICOTTA EPINARD",
+        "calories": 244,
+        "proteins": 8.1,
+        "carbs": 29,
+        "fats": 10,
+        "sugars": 3.6,
+        "fiber": 2.9,
+        "saturated_fat": 4,
+        "salt": 1.1,
+        "nutriscore": "D",
+        "allergens": [
+          "en:eggs",
+          "en:gluten",
+          "en:milk"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Pavé Gourmand Epinards et Fromage",
+        "calories": 214,
+        "proteins": 9.4,
+        "carbs": 19,
+        "fats": 10.4,
+        "sugars": 1,
+        "fiber": 3.5,
+        "saturated_fat": 2.3,
+        "salt": 0.98,
+        "nutriscore": "C",
+        "allergens": [
+          "en:eggs",
+          "en:gluten",
+          "en:milk"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Ravioli bio au blé complet épinards ricotta burrata",
+        "calories": 254,
+        "proteins": 9.9,
+        "carbs": 27,
+        "fats": 11,
+        "sugars": 4.1,
+        "fiber": 3.7,
+        "saturated_fat": 2.6,
+        "salt": 0.96,
+        "nutriscore": "C",
+        "allergens": [
+          "en:eggs",
+          "en:gluten",
+          "en:milk",
+          "fr:avoine",
+          "fr:avoine"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Parmentier de saumon, sauce ricotta épinards",
+        "calories": 130,
+        "proteins": 6.4,
+        "carbs": 9.5,
+        "fats": 7.2,
+        "sugars": 1.5,
+        "fiber": 1,
+        "saturated_fat": 3.6,
+        "salt": 0.67,
+        "nutriscore": "C",
+        "allergens": [
+          "en:fish",
+          "en:milk"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Epinards hachés à la crème",
+        "calories": 78,
+        "proteins": 3.5,
+        "carbs": 5.3,
+        "fats": 4.4,
+        "sugars": 1.4,
+        "fiber": 1.7,
+        "saturated_fat": 2.8,
+        "salt": 0.6,
+        "nutriscore": "B",
+        "allergens": [
+          "en:gluten",
+          "en:milk"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Tortelloni Ricotta et épinards",
+        "calories": 276,
+        "proteins": 9.2,
+        "carbs": 34.2,
+        "fats": 10.8,
+        "sugars": 3.5,
+        "fiber": 2.5,
+        "saturated_fat": 4.5,
+        "salt": 0.94,
+        "nutriscore": "D",
+        "allergens": [
+          "en:eggs",
+          "en:gluten",
+          "en:milk"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "source": "OpenFoodFacts"
+      }
+    ],
+    "timestamp": 1775732815.9365635
+  },
+  "lentilles_glucide": {
+    "data": [
+      {
+        "name": "Les tranches Végé - lentilles corail",
+        "calories": 143,
+        "proteins": 8.1,
+        "carbs": 11,
+        "fats": 6.5,
+        "sugars": 0.5,
+        "fiber": 3.8,
+        "saturated_fat": 0.6,
+        "salt": 1.8,
+        "nutriscore": "C",
+        "allergens": [
+          "en:celery",
+          "en:eggs"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Chips de lentilles saveur fines herbes",
+        "calories": 453.3,
+        "proteins": 13,
+        "carbs": 56.7,
+        "fats": 19,
+        "sugars": 2.3,
+        "fiber": 7.3,
+        "saturated_fat": 1.7,
+        "salt": 1.1,
+        "nutriscore": "C",
+        "allergens": [],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Chips de lentilles saveur tomate mozza",
+        "calories": 452,
+        "proteins": 13,
+        "carbs": 54,
+        "fats": 19,
+        "sugars": 3.8,
+        "fiber": 7.2,
+        "saturated_fat": 1.8,
+        "salt": 1.1,
+        "nutriscore": "C",
+        "allergens": [
+          "en:milk"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Lentilles préparées 1/2",
+        "calories": 94.2,
+        "proteins": 6.6,
+        "carbs": 14,
+        "fats": 0.5,
+        "sugars": 0.5,
+        "fiber": 3.1,
+        "saturated_fat": 0.1,
+        "salt": 0.76,
+        "nutriscore": "B",
+        "allergens": [
+          "en:celery",
+          "en:gluten",
+          "en:soybeans"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Lentilles cuisinées, riz & soja",
+        "calories": 153,
+        "proteins": 6.4,
+        "carbs": 13,
+        "fats": 6.4,
+        "sugars": 1.6,
+        "fiber": 8.9,
+        "saturated_fat": 1.1,
+        "salt": 0.72,
+        "nutriscore": "B",
+        "allergens": [
+          "en:gluten",
+          "en:soybeans"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Lentilles Cuisinées à l'Auvergnate",
+        "calories": 99,
+        "proteins": 6.1,
+        "carbs": 10,
+        "fats": 3.2,
+        "sugars": 0.8,
+        "fiber": 2.8,
+        "saturated_fat": 1.1,
+        "salt": 0.7,
+        "nutriscore": "C",
+        "allergens": [
+          "en:celery",
+          "en:gluten"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Chips de lentilles saveur oignons caramélisés",
+        "calories": 452,
+        "proteins": 13,
+        "carbs": 54,
+        "fats": 19,
+        "sugars": 1.7,
+        "fiber": 7.7,
+        "saturated_fat": 1.7,
+        "salt": 1,
+        "nutriscore": "A",
+        "allergens": [],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Lentilles cuisinées à l'Auvergnate",
+        "calories": 207,
+        "proteins": 6.1,
+        "carbs": 10,
+        "fats": 3.2,
+        "sugars": 0.8,
+        "fiber": 2.8,
+        "saturated_fat": 1.1,
+        "salt": 0.69,
+        "nutriscore": "C",
+        "allergens": [
+          "en:celery",
+          "en:gluten"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      }
+    ],
+    "timestamp": 1775732842.446867
+  },
+  "brocoli_legume": {
+    "data": [
+      {
+        "name": "Filet de Saumon Purée de Brocolis",
+        "calories": 109,
+        "proteins": 6.8,
+        "carbs": 8.6,
+        "fats": 5,
+        "sugars": 2.4,
+        "fiber": 1.2,
+        "saturated_fat": 1.9,
+        "salt": 0.66,
+        "nutriscore": "C",
+        "allergens": [
+          "en:fish",
+          "en:milk"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "La Purée Brocolis",
+        "calories": 24,
+        "proteins": 2.3,
+        "carbs": 3.2,
+        "fats": 2.6,
+        "sugars": 1.5,
+        "fiber": 1.2,
+        "saturated_fat": 1.6,
+        "salt": 0.68,
+        "nutriscore": "B",
+        "allergens": [
+          "en:milk"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Saumon, duo de guinoa et orge, purée aux légumes verts, sauce vierge à la framboise",
+        "calories": 152,
+        "proteins": 8.1,
+        "carbs": 8.2,
+        "fats": 9.1,
+        "sugars": 1.4,
+        "fiber": 2.8,
+        "saturated_fat": 2,
+        "salt": 0.72,
+        "nutriscore": "B",
+        "allergens": [
+          "en:fish",
+          "en:gluten",
+          "en:milk",
+          "en:sesame-seeds"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Buddha Bowl Pâtes au basilic",
+        "calories": 137.1,
+        "proteins": 6.4,
+        "carbs": 16,
+        "fats": 4.3,
+        "sugars": 0.5,
+        "fiber": 4.6,
+        "saturated_fat": 0.7,
+        "salt": 0.3,
+        "nutriscore": "A",
+        "allergens": [
+          "en:gluten",
+          "en:soybeans"
+        ],
+        "vegan": true,
+        "vegetarian": true,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Poêlée légumes & céréales Brocolis",
+        "calories": 78,
+        "proteins": 4.5,
+        "carbs": 7,
+        "fats": 2,
+        "sugars": 2.5,
+        "fiber": 7,
+        "saturated_fat": 0.3,
+        "salt": 0.52,
+        "nutriscore": "A",
+        "allergens": [
+          "en:gluten",
+          "en:milk",
+          "en:cereals-with-gluten"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Purée de légumes verts (haricots verts, brocolis, petit pois)",
+        "calories": 40,
+        "proteins": 3.6,
+        "carbs": 3.6,
+        "fats": 0.5,
+        "sugars": 1.9,
+        "fiber": 3.2,
+        "saturated_fat": 0.1,
+        "salt": 0.01,
+        "nutriscore": "A",
+        "allergens": [],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Bouchées de legumes",
+        "calories": 194,
+        "proteins": 6.1,
+        "carbs": 19,
+        "fats": 10,
+        "sugars": 2,
+        "fiber": 3,
+        "saturated_fat": 2.4,
+        "salt": 0.43,
+        "nutriscore": "C",
+        "allergens": [
+          "en:eggs",
+          "en:gluten",
+          "en:milk"
+        ],
+        "vegan": false,
+        "vegetarian": true,
+        "source": "OpenFoodFacts"
+      },
+      {
+        "name": "Potage Petit pois, Brocoli et Courgette",
+        "calories": 39,
+        "proteins": 2.2,
+        "carbs": 4,
+        "fats": 1,
+        "sugars": 1,
+        "fiber": 2.5,
+        "saturated_fat": 0.5,
+        "salt": 0.56,
+        "nutriscore": "B",
+        "allergens": [
+          "en:milk"
+        ],
+        "vegan": false,
+        "vegetarian": false,
+        "source": "OpenFoodFacts"
+      }
+    ],
+    "timestamp": 1775732844.1431828
+  },
+  "tofu": [
+    {
+      "name": "TOFU NATURE",
+      "calories": 157,
+      "proteins": 16,
+      "carbs": 2,
+      "fats": 9.3,
+      "source": "OpenFoodFacts"
+    },
+    {
+      "name": "Tofu fumé",
+      "calories": 139,
+      "proteins": 15,
+      "carbs": 1,
+      "fats": 7.7,
+      "source": "OpenFoodFacts"
+    },
+    {
+      "name": "NAKED ORGANIC TOFU",
+      "calories": 145.7,
+      "proteins": 16.5,
+      "carbs": 1.1,
+      "fats": 7.8,
+      "source": "OpenFoodFacts"
+    },
+    {
+      "name": "Räuchertofu Mandel-Sesam",
+      "calories": 198,
+      "proteins": 19,
+      "carbs": 1.5,
+      "fats": 12,
+      "source": "OpenFoodFacts"
+    },
+    {
+      "name": "Tofu fumé",
+      "calories": 164,
+      "proteins": 16,
+      "carbs": 1,
+      "fats": 10,
+      "source": "OpenFoodFacts"
+    },
+    {
+      "name": "Filets de tofu à la japonaise",
+      "calories": 205,
+      "proteins": 19,
+      "carbs": 2.4,
+      "fats": 13,
+      "source": "OpenFoodFacts"
+    }
+  ],
+  "epinards": [
+    {
+      "name": "Epinards hachés à la crème fraîche",
+      "calories": 78,
+      "proteins": 3.5,
+      "carbs": 5.3,
+      "fats": 4.4,
+      "source": "OpenFoodFacts"
+    },
+    {
+      "name": "Epinards hachés à la crème",
+      "calories": 78,
+      "proteins": 3.5,
+      "carbs": 5.3,
+      "fats": 4.4,
+      "source": "OpenFoodFacts"
+    }
+  ],
+  "courgette": [
+    {
+      "name": "Courgettes à la Provençale 1/2",
+      "calories": 63,
+      "proteins": 1.7,
+      "carbs": 7.3,
+      "fats": 2.5,
+      "source": "OpenFoodFacts"
+    },
+    {
+      "name": "Purée de courgettes",
+      "calories": 19,
+      "proteins": 1.8,
+      "carbs": 4.5,
+      "fats": 1.9,
+      "source": "OpenFoodFacts"
+    },
+    {
+      "name": "Courgettes à la Provençale 1/4",
+      "calories": 62,
+      "proteins": 1.8,
+      "carbs": 5.5,
+      "fats": 3.4,
+      "source": "OpenFoodFacts"
+    }
+  ],
+  "patate douce": [
+    {
+      "name": "Frites de patate douce",
+      "calories": 161,
+      "proteins": 2,
+      "carbs": 24,
+      "fats": 5.5,
+      "source": "OpenFoodFacts"
+    }
+  ],
+  "saumon": [
+    {
+      "name": "Rillettes de saumon",
+      "calories": 263,
+      "proteins": 16,
+      "carbs": 1.8,
+      "fats": 21,
+      "source": "OpenFoodFacts"
+    }
+  ],
+  "poulet": [
+    {
+      "name": "Blanc de Poulet  - 25% de Sel*",
+      "calories": 103,
+      "proteins": 21,
+      "carbs": 0.5,
+      "fats": 1.9,
+      "source": "OpenFoodFacts"
+    },
+    {
+      "name": "Blanc de Poulet",
+      "calories": 100,
+      "proteins": 21,
+      "carbs": 0.5,
+      "fats": 1.6,
+      "source": "OpenFoodFacts"
+    },
+    {
+      "name": "Rôti de Poulet - 100% filet",
+      "calories": 109.3,
+      "proteins": 22,
+      "carbs": 0.5,
+      "fats": 2.2,
+      "source": "OpenFoodFacts"
+    },
+    {
+      "name": "Blanc de poulet 100% filet",
+      "calories": 116.7,
+      "proteins": 21,
+      "carbs": 0.5,
+      "fats": 1.6,
+      "source": "OpenFoodFacts"
+    },
+    {
+      "name": "Filet de poulet 🐔 rôti",
+      "calories": 112,
+      "proteins": 23,
+      "carbs": 0.5,
+      "fats": 2,
+      "source": "OpenFoodFacts"
+    },
+    {
+      "name": "HERTA Blanc Poulet Nature conservation sans nitrite x4 -140g",
+      "calories": 105.6,
+      "proteins": 21,
+      "carbs": 0.9,
+      "fats": 2,
+      "source": "OpenFoodFacts"
+    }
+  ],
+  "brocoli": [
+    {
+      "name": "La Purée Brocolis",
+      "calories": 24,
+      "proteins": 2.3,
+      "carbs": 3.2,
+      "fats": 2.6,
+      "source": "OpenFoodFacts"
+    }
+  ],
+  "tomate": [
+    {
+      "name": "sauce tomate cuisinée",
+      "calories": 68,
+      "proteins": 1.6,
+      "carbs": 7.6,
+      "fats": 0.4,
+      "source": "OpenFoodFacts"
+    }
+  ],
+  "riz": [
+    {
+      "name": "Galettes riz complet Bio",
+      "calories": 379,
+      "proteins": 8.7,
+      "carbs": 77,
+      "fats": 3.2,
+      "source": "OpenFoodFacts"
+    }
+  ]
+}
